@@ -1,5 +1,5 @@
 ---
-title: About the Host
+title: The Host
 date: 2016-03-13 14:52:00 -07:00
 ---
 
