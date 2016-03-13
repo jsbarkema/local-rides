@@ -1,0 +1,11 @@
+---
+title: Local Rides
+url: http://local-rides.siteleaf.net
+timezone: America/Los_Angeles
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
