@@ -1,0 +1,13 @@
+---
+---
+@import 'toolbox';
+@import 'styles';
+
+* {
+  @include box-sizing(border-box)
+}
+
+body{
+  background: red;
+  color: #fff;
+}
