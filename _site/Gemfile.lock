@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     colorator (0.1)
     ffi (1.9.10)
@@ -27,7 +27,7 @@ GEM
       ffi (>= 0.5.0)
     rouge (1.10.1)
     safe_yaml (1.0.4)
-    sass (3.4.19)
+    sass (3.4.21)
 
 PLATFORMS
   ruby
