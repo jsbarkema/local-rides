@@ -10,8 +10,18 @@
   <link rel="stylesheet" type="text/css" href="/assets/styles/global.css" />
 </head>
 <body>
-  <div style="width: 100%; padding: 2em; background-color:red;">This is the header</div>
-  {{ page.title }}
+<div>
+  <ul>
+  {% for page in site.pages %}
+  {% if page.url == url %} class="active"{% endif %}
+    <li>
+      <a href="{{page.url}}">
+        {{page.title}}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
   {{ content }}
   {{ page.footer_scripts }}
 </body>
