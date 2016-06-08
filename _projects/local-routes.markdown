@@ -5,10 +5,10 @@ permalink: Rides
 Rides:
 - Route: Friant / Auberry Loop
   Type: Loop
-  Begin / End Point: Copper and Willow
+  Begin-End Point: Copper and Willow
 - Route: Spring Valley School
   Type: Out and back
-  Begin / End Point: Starbucks on Perrin
+  Begin-End Point: Starbucks on Perrin
 ---
 
 Local routes test collection.
