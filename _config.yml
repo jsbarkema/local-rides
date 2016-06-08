@@ -1,0 +1,14 @@
+---
+title: Local Rides
+timezone: America/Los_Angeles
+collections:
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+    permalink: Rides
+  uploads:
+    title: Uploads
+    output: true
