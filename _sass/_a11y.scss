@@ -1,17 +1,15 @@
-.module {
-  padding: 2em;
-  background: #efefee;
-  height: 10em; }
-
 /* -------------------------------------------------------------------------- *\
  * Necessary styling for the dialog to work
  * -------------------------------------------------------------------------- */
+
 .dialog[aria-hidden="true"] {
-  display: none; }
+  display: none;
+}
 
 /* -------------------------------------------------------------------------- *\
  * Styling to make the dialog look like a dialog
  * -------------------------------------------------------------------------- */
+
 .dialog-overlay {
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.66);
@@ -19,36 +17,45 @@
   top: 0;
   left: 0;
   bottom: 0;
-  right: 0; }
+  right: 0;
+}
 
 .dialog-content {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   z-index: 3;
   position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+}
 
 /* -------------------------------------------------------------------------- *\
  * Extra dialog styling to make it shiny
  * -------------------------------------------------------------------------- */
+
 .dialog-content {
   padding: 1em;
   max-width: 90%;
   width: 600px;
-  border-radius: 2px; }
+  border-radius: 2px;
+}
 
 @media screen and (min-width: 700px) {
   .dialog-content {
-    padding: 2em; } }
+    padding: 2em;
+  }
+}
+
 .dialog-overlay {
-  background-color: rgba(43, 46, 56, 0.9); }
+  background-color: rgba(43, 46, 56, 0.9);
+}
 
 .dialog h1 {
   margin: 0;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+}
 
 .dialog-close {
   position: absolute;
@@ -63,46 +70,59 @@
   height: 1.2em;
   text-align: center;
   cursor: pointer;
-  transition: 0.15s; }
+  transition: 0.15s;
+}
 
 @media screen and (min-width: 700px) {
   .dialog-close {
     top: 1em;
-    right: 1em; } }
+    right: 1em;
+  }
+}
+
 /* -------------------------------------------------------------------------- *\
  * Base stuff
  * -------------------------------------------------------------------------- */
+
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   font: 125% / 1.5 'ESPI', serif;
-  padding: 2em 0; }
+  padding: 2em 0;
+}
 
 h1 {
   font-size: 1.6em;
-  line-height: 1.1; }
+  line-height: 1.1;
+}
 
 h1 span {
-  color: #E50050; }
+  color: #E50050;
+}
 
 h1, h2 {
   font-family: 'ESPI Slab', sans-serif;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .link-like,
 a {
-  color: #00b4f1; }
+  color: #00b4f1;
+}
 
 .link-like:hover,
 .link-like:active,
 a:hover,
 a:active {
-  color: #E50050; }
+  color: #E50050;
+}
 
 /* -------------------------------------------------------------------------- *\
  * Helpers
  * -------------------------------------------------------------------------- */
+
 .link-like {
   background-color: transparent;
   text-decoration: underline;
@@ -110,43 +130,54 @@ a:active {
   margin: 0;
   padding: 0;
   font: inherit;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /* -------------------------------------------------------------------------- *\
  * Layout
  * -------------------------------------------------------------------------- */
+
 .main {
   max-width: 700px;
   margin: 0 auto;
-  padding: 0 1em; }
+  padding: 0 1em;
+}
 
 footer {
   border-top: 1px solid silver;
-  padding: 20px 0; }
+  padding: 20px 0;
+}
 
 /* -------------------------------------------------------------------------- *\
  * Form styling
  * -------------------------------------------------------------------------- */
+
 form {
-  margin-top: 2em; }
+  margin-top: 2em;
+}
 
 @media screen and (min-width: 700px) {
   form {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex;
+  }
+}
+
 form label {
   font-weight: bold;
   margin: 5px 10px 5px 0;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 form input {
   font: inherit;
   padding: 0.25em;
   border: 1px solid silver;
   width: 100%;
-  margin: 0.25em 0 1em; }
+  margin: 0.25em 0 1em;
+}
 
 @media screen and (min-width: 700px) {
   form input {
@@ -156,7 +187,10 @@ form input {
     flex: 1;
     border-right: 0;
     width: auto;
-    margin: 0; } }
+    margin: 0;
+  }
+}
+
 form button {
   background-color: #81c784;
   color: white;
@@ -166,15 +200,10 @@ form button {
   padding: 8px 15px;
   cursor: pointer;
   transition: 0.15s;
-  display: inline-block; }
+  display: inline-block;
+}
 
 form button:hover,
 form button:active {
-  background-color: #66bb6a; }
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box; }
+  background-color: #66bb6a;
+}
