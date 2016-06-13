@@ -11,6 +11,7 @@ Rides:
 - Ride: Spring Valley School
   Difficulty: Hard
   Type: Out and back
+layout: default
 ---
 
 Some of our most popular routes are listed below. More to come.
