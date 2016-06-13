@@ -2,14 +2,9 @@
 title: Local Rides
 timezone: America/Los_Angeles
 collections:
-<<<<<<< HEAD
-    - rides
-    - guides
-=======
   guides:
     title: Guides
     output: true
->>>>>>> 66c006b562a4c36e011eb22be125cd0f863c8a88
   posts:
     title: Posts
     output: true
