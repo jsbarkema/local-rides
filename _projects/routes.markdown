@@ -1,5 +1,5 @@
 ---
-title: Local Routes
+title: Routes
 date: 2016-06-07 16:56:00 -07:00
 permalink: Rides
 Rides:
