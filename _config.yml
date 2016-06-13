@@ -2,6 +2,8 @@
 title: Local Rides
 timezone: America/Los_Angeles
 collections:
+    - rides
+    - guides
   posts:
     title: Posts
     output: true
