@@ -13,4 +13,4 @@ Rides:
   Type: Out and back
 ---
 
-Some of our most popular routes are listed below.
+Some of our most popular routes are listed below. More to come.
