@@ -6,6 +6,7 @@ Field name:
   Nationality: English
 - Guide: James Fairbank
   Nationality: English
+layout: default
 ---
 
 Our experienced ride guides will provide the best insight to the selected routes, sharing key info to achieving the most enjoyment out of your day out.
