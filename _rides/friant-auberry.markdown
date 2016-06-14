@@ -4,7 +4,7 @@ date: 2016-06-13 15:12:00 -07:00
 ride-stats:
 - distance: 35 miles
   difficulty: Medium
-  elevation: 1,015 ft
+  elevation: 1,015 feet
 layout: rides
 ---
 
