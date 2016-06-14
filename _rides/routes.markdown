@@ -1,7 +1,7 @@
 ---
 title: Routes
 date: 2016-06-13 15:12:00 -07:00
-Rides:
+Routes:
 - Ride: Friant to Auberry loop
   Type: Loop
   Difficulty: Medium
