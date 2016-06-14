@@ -8,7 +8,7 @@ collections:
   posts:
     title: Posts
     output: true
-  rides-path:
+  rides:
     title: Rides
     output: true
   uploads:
