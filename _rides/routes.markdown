@@ -2,9 +2,9 @@
 title: Routes
 date: 2016-06-13 15:12:00 -07:00
 routes:
-  Name: Friant to Auberry Loop
-  Type: Loop
-  Difficulty: Medium
+  name: Friant to Auberry Loop
+  type: Loop
+  difficulty: Medium
 layout: default
 ---
 
