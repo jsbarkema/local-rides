@@ -5,7 +5,7 @@ routes:
   name: Friant to Auberry Loop
   type: Loop
   difficulty: Medium
-layout: default
+layout: home
 ---
 
 Some of our most popular routes are listed below. More to come.
