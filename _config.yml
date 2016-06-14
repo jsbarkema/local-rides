@@ -2,6 +2,8 @@
 title: Local Rides
 timezone: America/Los_Angeles
 collections:
+  - guides
+  - rides
   guides:
     title: Guides
     output: true
