@@ -5,14 +5,7 @@ footer_scripts: "<script type='text/javascript' src='/assets/js/home.js'></scrip
 
 <div class="container">
   {{ site.rides }}
-  {% for ride in site.rides %}
-    <p><strong>Name: </strong>{{ routes.name }}</p>
-    <p><strong>Type: </strong>{{ routes.type }}</p>
-    <p><strong>Difficulty: </strong>{{ routes.difficulty }}</p>
-  {% endfor %}
-
-  {% for guide in site.guides %}
-    <p><strong>Guide: </strong>{{ guide.guide }}</p>
-    <p><strong>Nationality: </strong>{{ guide.nationality }}</p>
-  {% endfor %}
+  {{ stats.distace }}
+  {{ stats.difficulty }}
+  {{ stats.elevation }}
 </div>
