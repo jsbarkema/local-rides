@@ -1,11 +1,37 @@
 ---
-layout: default
-footer_scripts: "<script type='text/javascript' src='/assets/js/home.js'></script>"
 ---
 
-<div class="container">
-  {{ site.rides }}
-  {{ stats.distace }}
-  {{ stats.difficulty }}
-  {{ stats.elevation }}
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="generator" content="Siteleaf, http://siteleaf.com" />
+    <title>{{page.title}} | {{site.title}}</title>
+    <link rel="canonical" href="{{permalink}}" />
+    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+    <link rel="stylesheet" type="text/css" href="/assets/styles/global.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header main">
+      <nav>
+        <ul style="padding-left: 0;">
+        {% for page in site.pages | sort:"date" %}
+          <li style="display: inline-block; padding: 0 1em;">
+            <a href="{{ page.url }}">
+              {{ page.title }}
+            </a>
+          </li>
+        {% endfor %}
+        </ul>
+      </nav>
+      <div class="container">
+        {{ site.rides }}
+        {{ stats.distace }}
+        {{ stats.difficulty }}
+        {{ stats.elevation }}
+      </div>
+    </div>
+  </body>
+</html>
