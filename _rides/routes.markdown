@@ -2,15 +2,9 @@
 title: Routes
 date: 2016-06-13 15:12:00 -07:00
 routes:
-- Name: Friant to Auberry loop
+  Name: Friant to Auberry Loop
   Type: Loop
   Difficulty: Medium
-- Name: Humphrey’s Station
-  Type: Out and back
-  Difficulty: Hard
-- Name: Spring Valley School
-  Difficulty: Hard
-  Type: Out and back
 layout: default
 ---
 
