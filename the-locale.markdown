@@ -1,7 +1,8 @@
 ---
 title: The Locale
 date: 2016-03-13 14:53:00 -07:00
-layout: default
+position: 2
+layout: second-level
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
