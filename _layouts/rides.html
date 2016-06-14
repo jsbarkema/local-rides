@@ -27,10 +27,11 @@
         </ul>
       </nav>
       <div class="container">
-        {{ site.rides }}
-        {{ stats.distace }}
-        {{ stats.difficulty }}
-        {{ stats.elevation }}
+        <h2>{{ page.title }}</h2>
+        {{ content }}
+        <p><strong>Distance: </strong>{{ page.ride-stats.distance }}</p>
+        <p><strong>Difficulty: </strong>{{ page.ride-stats.difficulty }}</p>
+        <p><strong>Elevation: </strong>{{ page.ride-stats.elevation }}</p>
       </div>
     </div>
   </body>
