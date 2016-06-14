@@ -11,9 +11,6 @@ collections:
   rides:
     title: Rides
     output: true
-  tours:
-    title: Tours
-    output: true
   uploads:
     title: Uploads
     output: true
