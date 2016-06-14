@@ -10,7 +10,7 @@ collections:
     output: true
   rides:
     title: Rides
-    output: false
+    output: true
   uploads:
     title: Uploads
     output: true
