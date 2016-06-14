@@ -15,10 +15,10 @@
   <!-- Header -->
   <div class="header main">
     <nav>
-      <ul>
-      {% for page in site.pages %}
-        <li>
-          <a href="{{page.url}}">
+      <ul style="padding-left: 0;">
+      {% for page in site.pages | sort:"date" %}
+        <li style="display: inline-block; padding: 0 1em;">
+          <a href="{{ page.url }}">
             {{ page.title }}
           </a>
         </li>
@@ -37,7 +37,7 @@
     <p><strong>No more excuse now. Make your dialog windows accessible.</strong></p>
     <!-- Footer -->
     <footer role="contentinfo">
-      &copy;&nbsp;2016 <a href="http://edenspiekermann.com">Edenspiekermann</a>
+
     </footer>
   </main>
   <!-- Modal Content -->
