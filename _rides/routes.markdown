@@ -8,6 +8,7 @@ routes:
 - name: Spring Valley School
   type: Out and back
   difficulty: Hard
+layout: second-level
 ---
 
 Some of our most popular routes are listed below. More to come.
