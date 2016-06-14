@@ -1,7 +1,7 @@
 ---
 title: Spring Valley School
 date: 2016-06-14 08:54:00 -07:00
-stats:
+ride-stats:
   distance: 55 miles
   difficulty: Hard
   elevation: 2,125 ft
