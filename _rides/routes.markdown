@@ -2,9 +2,12 @@
 title: Routes
 date: 2016-06-13 15:12:00 -07:00
 routes:
-  name: Friant to Auberry Loop
+- name: Friant Road to Auberry Road Loop
   type: Loop
   difficulty: Medium
+- name: Spring Valley School
+  type: Out and back
+  difficulty: Hard
 layout: default
 ---
 
