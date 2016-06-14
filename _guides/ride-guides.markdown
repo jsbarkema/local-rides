@@ -1,7 +1,7 @@
 ---
 title: Ride Guides
 date: 2016-06-13 15:30:00 -07:00
-Guides:
+guides:
 - Guide: Phil Deeker
   Nationality: English
 - Guide: James Fairbank
