@@ -2,7 +2,7 @@
 title: Friant to Auberry Loop
 date: 2016-06-13 15:12:00 -07:00
 stats:
-- distance: 35
+- distance: 35 miles
   difficulty: Medium
   elevation: 1,015 ft
 layout: rides
