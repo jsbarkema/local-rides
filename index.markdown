@@ -1,6 +1,7 @@
 ---
 title: Home
 date: 2016-03-13 15:56:00 -07:00
+position: 0
 layout: home
 ---
 

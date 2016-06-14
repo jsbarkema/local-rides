@@ -1,6 +1,7 @@
 ---
 title: The Locale
 date: 2016-03-13 14:53:00 -07:00
+position: 2
 layout: default
 ---
 

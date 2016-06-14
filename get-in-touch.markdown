@@ -1,6 +1,7 @@
 ---
 title: Get In Touch
 date: 2016-03-13 22:23:00 -07:00
+position: 3
 layout: default
 ---
 
