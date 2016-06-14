@@ -5,6 +5,7 @@ stats:
   distance: 55 miles
   difficulty: Hard
   elevation: 2,125 ft
+layout: rides
 ---
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
