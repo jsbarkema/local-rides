@@ -8,12 +8,6 @@ routes:
 - name: Spring Valley School
   type: Out and back
   difficulty: Hard
-pack-list:
-- Water bottles
-- Energy bars
-- Spare tubes
-- Tire wrenches
-- Cash
 layout: default
 ---
 
