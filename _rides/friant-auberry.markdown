@@ -1,5 +1,5 @@
 ---
-title: Friant to Auberry Loop
+title: Friant Rd. to Auberry Rd. Loop
 date: 2016-06-13 15:12:00 -07:00
 ride-stats:
   distance: 35 miles
