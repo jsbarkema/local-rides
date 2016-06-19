@@ -17,21 +17,24 @@
     <div class="header main">
       <nav>
         <ul style="padding-left: 0;">
-        {% for page in site.pages | sort:"date" %}
-          <li style="display: inline-block; padding: 0 1em;">
-            <a href="{{ page.url }}">
-              {{ page.title }}
-            </a>
-          </li>
-        {% endfor %}
+          {% for my_page in site.pages %}
+            {% if my_page.title %}
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            {% endif %}
+          {% endfor %}
         </ul>
       </nav>
-      <div class="container">
+    </div>
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      <ul style="padding-left: 0;">
         {% for page in site.rides %}
+        <li style="display:inline-block; padding: 1em; background: #efefee; width:31.25%; margin:.5em; text-align:center;height:15em;">
           <h2>{{ page.title }}</h2>
-          <a href="{{ page.url }}">{{ page.url }}</a>
+          <a href="{{ page.url }}">View the ride</a>
+        </li>
         {% endfor %}
-      </div>
+      </ul>
     </div>
   </body>
 </html>
